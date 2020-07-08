@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+.navbar-bg-dark {
+  background-color: darkslateblue !important;
+}
+body {
+  height: 100%;
+  font-family: "Lato", sans-serif;
+}
+.bg {
+  /* The image used */
+  background-image: "./images/Decide.JPG";
+  background-color: #cccccc;
+  background-image: repeating-linear-gradient(
+    darkslateblue,
+    skyblue 20%,
+    aquamarine 30%,
+    cornflowerblue 100%
+  );
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
